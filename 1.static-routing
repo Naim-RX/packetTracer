@@ -1,0 +1,46 @@
+Dhaka-router------------------
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Dhaka-Router
+Dhaka-Router(config)#do show running config
+dhaka-router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+dhaka-router(config)#ip route 194.168.1.0 255.255.255.0 193.168.1.2
+dhaka-router(config)#ip route 195.168.1.0 255.255.255.0 193.168.1.2
+dhaka-router(config)#ip route 199.168.1.0 255.255.255.0 193.168.1.2
+dhaka-router(config)#ip route 198.168.1.0 255.255.255.0 197.168.1.1
+dhaka-router(config)#ip route 196.168.1.0 255.255.255.0 197.168.1.1
+
+
+
+
+Bogura----------------------
+
+bogura-router(config)#ip route 194.168.1.0 255.255.255.0 195.168.1.1
+bogura-router(config)#ip route 193.168.1.0 255.255.255.0 195.168.1.1
+bogura-router(config)#ip route 192.168.1.0 255.255.255.0 195.168.1.1
+bogura-router(config)#ip route 197.168.1.0 255.255.255.0 196.168.1.2
+bogura-router(config)#ip route 198.168.1.0 255.255.255.0 196.168.1.2
+
+
+Rangpur----------------------
+rangpur-router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+rangpur-router(config)#ip route 192.168.1.0 255.255.255.0 193.168.1.1
+rangpur-router(config)#ip route 197.168.1.0 255.255.255.0 193.168.1.1
+rangpur-router(config)#ip route 198.168.1.0 255.255.255.0 193.168.1.1
+rangpur-router(config)#ip route 196.168.1.0 255.255.255.0 195.168.1.2
+rangpur-router(config)#ip route 199.168.1.0 255.255.255.0 195.168.1.2
+
+
+
+
+Rajshahi--------------------
+rajshahi-router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+rajshahi-router(config)#ip route 192.168.1.0 255.255.255.0 197.168.1.2
+rajshahi-router(config)#ip route 193.168.1.0 255.255.255.0 197.168.1.2
+rajshahi-router(config)#ip route 194.168.1.0 255.255.255.0 197.168.1.2
+rajshahi-router(config)#ip route 195.168.1.0 255.255.255.0 196.168.1.1
+rajshahi-router(config)#ip route 199.168.1.0 255.255.255.0 196.168.1.1
